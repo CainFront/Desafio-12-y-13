@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8" />
+    <title>NotiFake - Tu Web de Informacion</title>
+    <meta
+      name="description"
+      content="Web creada para desafio 12 y 13 JavaScript - CoderHouse"
+    />
+    <meta name="author" content="Cain Caamiña" />
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="./img/logoTexto.png" />
+  </head>
+
+  <body>
+    <!-- NavBar -->
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="five columns">
+            <h1><img src="./img/logo2.png" alt="logo" />NotiFake</h1>
+          </div>
+
+          <div class="six columns">
+            <label for="cantante" id="labelCantante"
+              >¿Cual es tu cantante Favorito?</label
+            >
+            <input
+              type="text"
+              class="inputCantente u-full-width"
+              placeholder="Ej: Elton Tito y ENTER"
+            />
+            <p id="correcto">Muy buen justo Musical !!</p>
+            <p id="error">Mmm.. y tambien te gustan los "Backstreet Boys"?</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Publicidad -->
+    <div class="publicidad">
+      <div class="container">
+        <div class="row">
+          <div class="four columns">
+            <h2>Publicidad Paga</h2>
+          </div>
+          <div class="two columns u-pull-right">
+            <button class="button" id="publicidadBtn">cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Cards - Noticias -->
+    <div class="seccionNoticias">
+      <div class="container">
+        <h2>Las Mejores FakeNews</h2>
+        <div class="row">
+          <!-- Noticia 1 -->
+          <div class="four columns">
+            <div class="noticia">
+              <img src="./img/fake1.png" class="imagen u-full-width" />
+              <div class="infoNoticia">
+                <h4>Comer 2Kg de Cerezas al dia mejora tus reflejos.</h4>
+                <p>
+                  Según estudios realizados por la verdulería "La Esquina",
+                  luego de dos años de arduo estudio determinaron que comer dos
+                  kilogramos de cerezas al día aumentaría un poco los reflejos
+                  de las personas y consecuentemente tambien mejoraría la
+                  capacidad económica del vendedor de cerezas.
+                </p>
+                <p class="noticiaOculta1">
+                  Luego de una exhaustiva investigación por parte del equipo de
+                  "NotiFake", se determinó que esta noticia NO es real. Solo era
+                  una mentira propagada por los distribuidores de frutas y
+                  verduras de mi ciudad.
+                </p>
+
+                <p
+                  class="button u-full-width button noticiaBtn"
+                  id="noticiaBtn1"
+                >
+                  Leer Mas...
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Noticia 2 -->
+          <div class="four columns">
+            <div class="noticia">
+              <img src="./img/fake2.png" class="imagen u-full-width" />
+              <div class="infoNoticia">
+                <h4>Vacacionar en el exterior hace mal al corazon</h4>
+                <p>
+                  El ministerio de Turismo de la República Argentina el día de
+                  ayer realizo una rueda de prensa iniciando el periodo
+                  vacacional 2022. En la misma comento un estudio procedido por
+                  la Escuela Infantil N.º 2 en donde la premisa es que "Viajar
+                  al Exterior hace mal al Corazón".
+                </p>
+                <p class="noticiaOculta2">
+                  Luego de una exhaustiva investigación por parte del equipo de
+                  "NotiFake", se determinó que esta noticia es real. Noticia
+                  Patrocinada por el ministerio de Turismo.
+                  <strong>Viaja a Mar de las Pompas con Trivago!</strong>
+                </p>
+
+                <p
+                  class="button u-full-width button noticiaBtn"
+                  id="noticiaBtn2"
+                >
+                  Leer Mas...
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Noticia 3 -->
+          <div class="four columns">
+            <div class="noticia">
+              <img src="./img/fake3.png" class="imagen u-full-width" />
+              <div class="infoNoticia">
+                <h4>Estudios revelan que el año 2021 nunca existio.</h4>
+                <p>
+                  El filósofo Mario Besuti en su último trabajo creo un poema
+                  llamado "Estudios revelan que el año 2021 nunca existió y por
+                  lo cual existe un salto cuántico entre el 2020 y el 2022",
+                  tras su publicación muchos Tuiteros Matriculados empezaron a
+                  divulgar este mensaje como si fuese una realidad.
+                </p>
+                <p class="noticiaOculta3">
+                  Luego de una exhaustiva investigación por parte del equipo de
+                  "NotiFake", se determinó que esta noticia es real "El
+                  Poema"..., el resto lo dejo a tu criterio.
+                </p>
+
+                <p
+                  class="button u-full-width button noticiaBtn"
+                  id="noticiaBtn3"
+                >
+                  Leer Mas...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

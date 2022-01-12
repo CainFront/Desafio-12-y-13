@@ -1,0 +1,83 @@
+.header {
+  width: 100vw;
+  background-color: rgb(24, 24, 24);
+  border-bottom: 5px solid red;
+  text-align: center;
+  img {
+    width: 100px;
+  }
+  h1 {
+    color: white;
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+}
+
+#labelCantante {
+  color: white;
+  font-variant: small-caps;
+  font-size: 1.7rem;
+}
+
+#error {
+  display: none;
+  color: red;
+  font-weight: bold;
+}
+
+#correcto {
+  display: none;
+  color: green;
+  font-weight: bold;
+}
+
+// Hero section
+.publicidad {
+  background-image: url(../img/publicidad2.png);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  h2 {
+    color: white;
+    font-variant: small-caps;
+    margin: 1rem;
+    padding: 5px;
+    border-radius: 5%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.294);
+    box-shadow: -10px 0px 13px -7px #ffffff, 10px 0px 13px -7px #ffffff,
+      5px 5px 15px 5px rgba(255, 255, 255, 0);
+  }
+  button {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.4);
+    margin: 1rem;
+    &:hover {
+      color: white;
+      filter: brightness(5);
+    }
+  }
+}
+
+// Seccion Noticias
+.seccionNoticias {
+  h2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+}
+
+.noticiaOculta1 {
+  display: none;
+}
+
+.noticiaOculta2 {
+  display: none;
+}
+.noticiaOculta3 {
+  display: none;
+}
